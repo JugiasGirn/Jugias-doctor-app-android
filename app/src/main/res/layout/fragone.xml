@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Statins Can Help Women With Breast Cancer, Study Finds"
+                android:padding="6dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The researchers evaluated statins in 13,378 females with breast cancer.
+
+They followed up, on average, for 4.5 years after breast cancer diagnosis, during which time 16.4% of patients died and 7% died from breast cancer.
+
+The researchers found the risk of death dropped among those who started taking statins after diagnosis and experienced a reduction in cholesterol levels.
+
+The team found that 7.6% of the participants who did not take statins died of breast cancer compared to 6.1% who took statins.
+
+“In a retrospective study, this is a very small difference and not definitive,” Dr. Parvin Peddi, the director of Breast Medical Oncology for the Margie Petersen Breast Center at Providence Saint John’s Health Center and Associate Professor of Medical Oncology at Saint John’s Cancer Institute, said.
+
+Peddi was not involved in the study.
+
+The reduced risk of death was also observed among women with estrogen receptor–positive tumors.
+
+The risk further declined with increasing intensity of statin use, the study found.
+
+The risk of death didn’t drop in women whose cholesterol levels did not substantially decrease after starting statins."
+                android:padding="6dp"
+                android:textSize="18sp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

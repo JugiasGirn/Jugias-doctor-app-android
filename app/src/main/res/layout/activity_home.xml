@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@android:color/holo_blue_dark">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="My Health"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:id="@+id/Tvtittle"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Tvtittle"
+        android:id="@+id/LVone"
+        android:layout_marginTop="40dp">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:elevation="8dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            android:id="@+id/Cdlabtest"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/microscope"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/IVlab"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab Test"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/IVlab"
+                    android:layout_marginTop="8dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18sp"
+                    />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:elevation="8dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            android:id="@+id/Cdmedicine">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pharmacy"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/IVmedical"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy Medicine"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/IVmedical"
+                    android:layout_marginTop="8dp"
+                    android:layout_centerHorizontal="true"
+
+                    />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/LVone"
+        android:id="@+id/LVtwo"
+        android:layout_marginTop="8dp">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:elevation="8dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            android:id="@+id/Cddoct">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/doctor"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/IVdoct"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Find Doctor"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:layout_below="@+id/IVdoct"
+                    android:layout_marginTop="8dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:elevation="8dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            android:id="@+id/Cdhealth">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/healthcare"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/IVhealth"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health Articles"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                   android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/IVhealth"
+                    android:layout_marginTop="8dp"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/LVtwo"
+        android:id="@+id/LVthree"
+        android:layout_marginTop="8dp">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:elevation="8dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            android:id="@+id/Cdorder">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/shoppingbag"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/IVhorder"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order Details"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:layout_below="@+id/IVhorder"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:elevation="8dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            android:id="@+id/Cdlogout">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_logout_24"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/IVlogout"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Logout"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/IVlogout"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

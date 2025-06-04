@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 Most Effective Ways to Treat Obesity"
+                android:padding="6dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In order to make their recommendations, the authors reviewed numerous high-quality studies and policy guidelines. Altogether, they selected 126 articles for inclusion in their review.
+
+Dr. Blen Tesfu, a general practitioner and medical advisor for the UK-based healthcare platform Welzo, commented after examining the report that the findings of the study were “quite comprehensive.”
+
+She additionally pointed out that one important finding of the study is just how prevalent obesity is around the world and in the U.S. in particular.
+
+On the epidemiological front, the study authors found that worldwide obesity between the years 1975 and 2014 rose from 3.2% to 10.8% in men and 6.4% to 14.9% in women.
+
+Additionally, it was forecasted that by 2025 18% of men and 21% of women will be living with obesity.
+
+The outlook was even worse when U.S. statistics were examined. According to Tesfu, 42% of American adults are currently affected by obesity generating an estimated annual cost of $173 billion.
+
+It is expected that by the year 2030, 48.9% of Americans will be classified as obese, per the report.
+
+The authors also noted a growing racial divide in obesity with Black and Hispanic individuals outpacing their white counterparts."
+                android:padding="6dp"
+                android:textSize="18sp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
